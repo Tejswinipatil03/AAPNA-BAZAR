@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<form>
+	<form method="get" action="">
+		<label>Hidden Data</label><br>
+		<input type="hidden" name="user_hidden_dat"><br>   <!--type=hidden...=box gayb hota he-->
+
+
+		<label>color</label><br>
+		<input type="color" name="user_color"><br>      <!--type=color...desehi box me black  color aata he-->
+
+		<label>Fedback / ask Quser</label><br>
+		<textarea name="user_ask-q" cols="80" rows="7"></textarea><br>    <!--textarea se bada box aata he kuch type kr shakte he,+++++++++++,or cols,rows dene se jitni value pass kre utna hi box aata he-->
+
+
+		<input type="button" name="click here" value="click here"> <br>  <!---is se button banta he par vo work nhi krta button bananse hi vo work krta he--> 
+		                                       <!---<input type="" name="">=is se box aata  he sirf--> 
+        <!--<button>abcd</button>-->
+
+
+        <label>date and time</label><br>
+        <input type="datetime-local" name=""><br>     <!--type=datetime-local -->
+        <!--pura calender hi aata he nd time -->
+
+
+		<br>
+		<br>
+		<input type="submit" name="">
+</form>
+<script type="text/javascript">
+	var d=new Date();
+	document.getElementsByTagName('input')[0].value=d;
+</script>
+</body>
+</html>
